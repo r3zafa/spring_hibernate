@@ -4,7 +4,7 @@
 | ------------- | ------------- |
 **Beschreibung** | This Course covers spring 4,5: Learn Spring 5 Core, AOP, Spring MVC, Maven, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate. 
 **Kurse Link** | https://www.udemy.com/course/spring-hibernate-tutorial/
-**Fachlicher Ansprechpartner** <br/>*Sommer 2022* | Robin Polke 
+**Fachlicher Ansprechpartner** <br/>*Sommer 2022* | R.Polke 
 **Software Ansprechpartner** <br/>*Sommer 2022* |  Reza Faraji  
 **Auftragsgeber** |  frobese  
 **Produktiv-URL(s)** |  Keine  
@@ -12,8 +12,6 @@
 **Git-Repository** |  https://git.frobese.de/rfaraji/spring_hibernate/  
 **zugehörige Repos** |  Keine  
 **Technik** |  Java, html5, css3, Sql db, Spring framework, hibernate ORM  
-**Matomo Einbindung?** |  Nein  
-**Im Einsatz? (Ja/Nein) Intern/Extern?** |  Nein/Intern  
 **Stand** |  Sommer 2022 
 
 ## Getting started

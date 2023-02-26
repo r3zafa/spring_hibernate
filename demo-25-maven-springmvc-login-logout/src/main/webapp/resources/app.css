@@ -1,0 +1,22 @@
+.loginBody {
+	min-height:100vh;
+	background: linear-gradient(316deg, #489af1, #3b3b3b, #fffffa);
+    background-size: 600% 600%;
+	animation: circle 52s ease infinite;
+}
+	
+	
+@keyframes circle {
+    0%{background-position:63% 0%}
+    50%{background-position:38% 100%}
+    100%{background-position:63% 0%}
+}
+
+
+.latter-spacing-1 {
+	letter-spacing: 0.3em;
+}
+
+.width-first-column {
+	width: 30%;
+}

@@ -1,0 +1,15 @@
+{
+	"id": 12,
+	"firstName": "Nick",
+	"lastName": "Robert",
+	"active": true,
+	"address": {
+		"street": "Nord St",
+		"city": "Garbsen",
+		"state": "niedersachsen",
+		"zip": "30823",
+		"country": "DE"
+	},
+	"languages": ["JS","Java", "Python", "Php"],
+	"company": "Frobese GmbH"
+}

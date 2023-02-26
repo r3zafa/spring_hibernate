@@ -1,0 +1,63 @@
+body {
+	min-height: 90vh;
+}
+
+.rounded-lg {
+	border-radius: 0.7rem;
+}
+.main-body {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.app-body {
+	width: 97%;
+	min-height: 75vh;
+}
+
+.header {
+	margin-bottom: 0.75rem;
+}
+
+.card {
+	border-radius: 0.7rem;
+	transition: all .3s ease-in;
+}
+
+.card:hover {
+	transition: transform .2s ease-in, box-shadow .1s ease;
+	transform: scale(1.1);
+}
+
+
+
+table.customer-table {
+	width: 100%;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	border-width: 0.1rem;
+	border-color: #1B2436;
+	border-style: solid;
+	text-align: center;
+	margin: 0.2rem;
+	margin-bottom: 1rem;
+}
+
+table.customer-table td, table.customer-table th {
+	border-width: 0.1rem;
+	border-color: #1B2436;
+	border-style: solid;
+	padding: 5px;
+}
+
+table.customer-table thead {
+	background-color: #1B2436;
+	color: white;
+}
+
+table.customer-table tbody {
+	color: black;
+}

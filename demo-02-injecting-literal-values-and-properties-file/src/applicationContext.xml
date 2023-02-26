@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- load properties file in spring configuration : sport.properties -->
+	<context:property-placeholder location="classpath:sport.properties"/>
+
+
+	<!-- step one - Configuring Spring Beans -->
+	<!-- Define your beans here -->
+	  
+	  <!-- dependency injection XML configuration -->
+	  <!-- helper bean -->
+	 <bean id="myFortuneService"
+    	class="de.demo.spring.HappyFortuneService">
+    </bean>
+	
+	<!-- for setter injection -->
+    <bean id="myCricketCoach"
+    	class="de.demo.spring.CricketCoach">
+    	<!-- setup setter injection -->
+    	<property name="fortuneService" ref="myFortuneService"/>
+    	
+    	<!-- step 2 - injecting literals -->
+    	<!-- configure the injection in spring config file -->
+    	<!-- 
+    	 	<property name="emailAddress" value="rfaraji@frobese.com"/>
+    		<property name="team" value="Developement"/>
+    	 -->
+    	 
+    	 <!-- load from properties file -->
+    	<property name="emailAddress" value="${cricket.email}"/>
+    	<property name="team" value="${cricket.team}"/>
+    	
+    </bean>
+    
+    
+</beans>
+
+
+
+
+

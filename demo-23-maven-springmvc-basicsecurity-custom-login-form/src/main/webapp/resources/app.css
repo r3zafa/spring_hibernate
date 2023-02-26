@@ -1,0 +1,138 @@
+body {
+	text-align: center;
+	color: red;
+}
+
+.login-body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	background: linear-gradient(70deg, #ef233c, #2b2d42, #0081a7);
+    background-size: 700% 700%;
+    animation: circle 30s ease infinite;
+}
+@keyframes circle {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+.form-body {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	box-sizing: border-box;
+	border-radius: .5rem;	
+	background-color: #edf2f4d9;
+	width: 300px;
+	height: 350px;
+	box-shadow: 0px 0px 10px #8d99ae66;
+}
+
+
+.error-msg {
+	color: #2b2d42;
+	background-color: #ffd60a66;
+	text-align: center;
+	padding: 10px 3px;
+	margin-bottom: 0;
+}
+
+.form-header {
+	text-align: center;
+	color: #2b2d42;
+}
+
+form {	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	box-sizing: border-box;
+}
+
+form>*:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.form-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	
+	border: none;	
+	border-radius: 0.5rem;
+	height: 40px;	
+	width: 160px;
+	background-color: #2b2d42;
+	color: #FFF;
+	
+	text-align: center;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size: 1.2rem;
+	font-weight:300;
+	
+	overflow: hidden;
+	transition: all .2s linear 0s;
+
+}
+
+
+.form-btn.form-btn-5:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f120";
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50px;
+	
+	background-color: rgba(255, 255, 255, .2);
+	border-radius: 0;
+	transform: scale(0, 1);
+	transform-origin: left center;
+	transition: all .2s linear 0s;
+}
+
+.form-btn.form-btn-5:hover {
+	text-indent: 40px;
+}
+
+.form-btn.form-btn-5:hover:before {
+	transform: scale(1, 1);
+	text-indent: 0;
+}
+
+
+
+.form-input {
+	height: 35px;
+	padding: 0 10px;
+	background-color: #edf2f4;
+	border-radius: .5rem;
+	border: 2px solid #403d39;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #f7b801;
+    box-shadow: 0 0 5px #f7b801;
+    background-color: #f7b80102;
+   }

@@ -9,7 +9,6 @@
 **Auftragsgeber** |  frobese  
 **Produktiv-URL(s)** |  Keine  
 **Test-URL** | Keine  
-**Git-Repository** |  https://git.frobese.de/rfaraji/spring_hibernate/  
 **zugehörige Repos** |  Keine  
 **Technik** |  Java, html5, css3, Sql db, Spring framework, hibernate ORM  
 **Stand** |  Sommer 2022 
